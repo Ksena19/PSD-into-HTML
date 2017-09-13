@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	width: 100%;
+}
+
+header {
+	background-image: url('../img/background.png');
+	background-size: cover;
+	width: 100%
+	height: auto;
+}
+.head {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.menu{
+	display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+	 padding: 15px;
+	 list-style: none;
+}
+.menu a {
+	text-decoration: none;
+	color: #fff;
+}
+.current {
+	color: grey;
+}
+.toggle-nav {
+    display:none;
+}
+ .close-block {
+	    display: none;
+}
+.container {
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	flex-wrap: wrap;
+}
+.left {
+	margin-top: 250px;
+	width: 571px; 
+	color: #fff;
+}
+.left h1 {
+	font-size: 38px;
+	margin-bottom: 58px;
+}
+.left p {
+	font-size: 21px;
+	line-height: 40px;
+}
+.left button {
+	margin-top: 100px;
+	padding: 25px 56px;
+	color: #fff;
+	font-size: 18px;
+	text-transform: uppercase;
+	background: transparent;
+	border: 1px solid #fff;
+	border-radius: 5px;
+}
+.iphone {
+	width: 300px;
+	height: 584px;
+	margin-top: 130px;
+}
+.iphone img {
+	width: 100%;
+}
+.container {
+	padding-bottom: 102px;
+}
+.content {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+.content > h2 {
+	margin-top: 95px;
+	text-transform: uppercase;
+	color: #ffa544;
+	font-size: 18px;
+}
+.h {
+	font-size: 36px;
+	margin-top: 32px;
+}
+.blocks {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 100px;
+}
+.col {
+	width: 33%;
+	line-height: 1.5em;
+	font-size: 1.125em;
+	margin-top: 90px;
+}
+.col h1 {
+	margin-bottom: 30px;
+	font-size: 1.125em;
+}
+.col p {
+	color: #5c5c5c;
+}
+.subs {
+	background-image: url('../img/background1.png');
+	background-size: cover;
+	width: 100%;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	text-align: center;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.emailsubs  h1 {
+	font-size: 1.667em;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+}
+.emailsubs {
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 30px;
+	color: #fff;
+	font-weight: normal;
+}
+.emailsubs p {
+	
+	margin: 35px auto;
+	font-size: 1.125em;
+}
+.inpEmail {
+	padding: 25px 200px 25px 30px;
+	margin-right: 30px;
+	border-radius: 5px;
+	border: 2px solid #fff;
+	background-color: transparent;
+}
+::-webkit-input-placeholder{
+	color: #fff;
+}
+
+::-moz-placeholder { 
+	color: #fff;
+}
+
+:-ms-input-placeholder { 
+	color: #fff;
+}
+
+:-moz-placeholder { 
+	color: #fff;
+}
+
+hr {
+	margin-top: 64px;
+	background-color: #d8d8d8;
+	height: 2px;
+	border: none;
+}
+
+.btn {
+	width: 201px;
+	height: 67px;
+	font-size: 1.125em;
+	text-transform: uppercase;
+	color: #ff8e26;
+	background-color: #fff;
+	border-radius: 5px;
+	border: none;
+}
+.copy {
+	font-size: 16px;
+	margin-top: 30px;
+}
+footer {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.socNetw {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 45px auto;
+	color: #a9a9a9;
+
+}
+.social a {
+	padding: 30px;
+}
+
+
+@media all and (max-width: 600px) {
+   body {
+   	padding: 0;
+	margin: 0;
+	width: 100%;
+   }
+
+  .menu {
+    flex-flow: column wrap;
+    padding: 0;
+   }
+
+  .inpEmail {
+	padding: 20px 60px 20px 20px;
+	margin: 20px auto;
+	margin-bottom: 20px;
+  }
+  .social {
+  	margin: 50px auto;
+  	padding: 10px;
+  }
+  .socNetw > div{
+  	margin: 20px auto;
+  }
+}
+
+@media only screen and (max-width : 800px) {
+	.col {
+	    width: 100%;
+    }
+
+	.inpEmail {
+		margin: 20px auto;
+		margin-bottom: 20px;
+	}
+
+	.toggle-nav {
+	 	
+	 	text-decoration: none;
+        float: right;
+        display: inline-block;
+        color:#000;
+        font-size: 40px;
+        transition:color linear 0.15s;
+    }
+
+    .close-block {
+	    display: none;
+	    cursor: pointer;
+	    float: right;
+	    font-size: 40px;
+	    color:#fff;
+	}
+
+    .toggle-nav:hover, .toggle-nav.active {
+        text-decoration:none;
+    }
+
+    .menu {
+    	display: none;
+    	margin-top: 60px;
+    	text-align: right;
+    }
+
+}
+
+@media only screen and (min-device-width : 760px) and (max-device-width : 1024px) {
+	head {
+		margin: 0 auto;
+	}
+
+	.container {
+		flex-wrap: nowrap;
+	}
+
+	.left {
+	    margin-top: 150px;
+	}
+	.iphone {
+		margin-left: 50px; 
+	}
+	.col {
+		width: 50%;
+	}
+
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+.container {
+		flex-wrap: nowrap;
+	}
+}    

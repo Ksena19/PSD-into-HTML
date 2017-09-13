@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Testing</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+	<header>
+	<div class="head">
+		<div class="logo"><img src="img/logo.png"></div>
+		<div class="nav">
+		<span class="toggle-nav" href="#">&#9776;</span>
+		<span class="close-block"><img src="https://www.boatsmartexam.com/images/close-icon-black-cbb1a976.png" width="20px" height="20px"></span>
+			<ul class="menu">
+				<li class="current"><a href="#" >About</a></li>
+				<li><a href="#">Download</a></li>
+				<li><a href="#">Workflow</a></li>
+				<li><a href="#">Support</a></li>
+				<li><a href="#">User Stories</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		  	
+		</div>	
+	</div>
+		<div class="container">
+			<div class="left">
+				<h1>Built with app designers in mind</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+				eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				Lorem ipsum dolor sit amet.</p>
+				<button>How it work</button>
+			</div>
+			<div class="iphone">
+				<img src="img/iphone.png">
+			</div>
+
+		</div>
+	</header>
+	<div class="content">
+	   <h2>How it works</h2>
+		 <h1 class="h">Lorem ipsum is simply</h1>
+		<div class="blocks">
+			<div class="col">
+			<img src="img/item1.png">
+				<h1>Lorem ipsum is simply</h1>
+				<p>Lorem ipsum is simply dummy text of the
+				printing and typesetting industry</p>
+			</div>
+			<div class="col">
+			<img src="img/item2.png">
+				<h1>Lorem ipsum is simply</h1>
+				<p>Lorem ipsum is simply dummy text of the
+				printing and typesetting industry</p>
+			</div>
+			<div class="col">
+			<img src="img/item3.png">
+				<h1>Lorem ipsum is simply</h1>
+				<p>Lorem ipsum is simply dummy text of the
+				printing and typesetting industry</p>
+			</div>
+			<div class="col">
+			<img src="img/item4.png">
+				<h1>Lorem ipsum is simply</h1>
+				<p>Lorem ipsum is simply dummy text of the
+				printing and typesetting industry</p>
+			</div>
+			<div class="col">
+			<img src="img/item5.png">
+				<h1>Lorem ipsum is simply</h1>
+				<p>Lorem ipsum is simply dummy text of the
+				printing and typesetting industry</p>
+			</div>
+			<div class="col">
+			<img src="img/item6.png">
+				<h1>Lorem ipsum is simply</h1>
+				<p>Lorem ipsum is simply dummy text of the
+				printing and typesetting industry</p>
+			</div>
+		</div> 
+	</div>
+	<div class="subs">
+		<div class="emailsubs">
+				<h1>Receive notification now</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur 
+				adipiscing elit, sed do eiusmod tempor incididunt ut
+				labore et dolore magna aliqua. Lorem ipsum dolor.</p>
+			<div class="address">
+				 <input class="inpEmail" type="text" name="address" placeholder="Your email address..."> 
+				 <button class="btn">I'm ready</button>
+		    </div>
+		</div>
+	</div>
+	<footer>
+		 <hr>
+	   <div class="socNetw">
+			<div>	
+				<span class="copy">Copyright by Comtruavip 2017</span>
+			</div>
+			<div class="social">
+				<a href="#"><img src="img/facebook.png"></a>
+				<a href="#"><img src="img/google.png"></a>
+				<a href="#"><img src="img/insta.png"></a>
+			</div>
+	    </div>		
+	</footer>
+<script>
+
+    $(".toggle-nav").click(function(){
+        $(".menu").toggle();
+        $(".toggle-nav").hide();
+        $(".close-block").show();
+    });
+
+       $(".close-block").click(function(){
+        $(".menu").toggle();
+        $(".close-block").hide();
+        $(".toggle-nav").show();
+    });
+
+
+</script>
+</body>
+</html>
